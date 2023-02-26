@@ -31,7 +31,7 @@
   margin: 0 auto;
 }
 
-.btn{
+.btn {
   border: none;
   background-color: lightblue;
   padding: 10px 15px;
@@ -39,11 +39,11 @@
   font-size: 18px;
   color: #ececec;
 }
-.btn:hover{
+.btn:hover {
   color: red;
 }
 
-.winner{
+.winner {
   width: 200px;
   height: 100px;
   background-color: #ececec;
@@ -53,7 +53,7 @@
   font-size: 50px;
 }
 
-.lose{
+.lose {
   width: 200px;
   height: 100px;
   background-color: #ececec;
@@ -61,4 +61,26 @@
   justify-content: center;
   align-items: center;
   font-size: 50px;
+}
+
+@media (max-width: 570px) {
+  .container {
+    max-width: 500px;
+    display: block;
+  }
+  .field {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .field {
+    width: 300px;
+    height: 300px;
+    border: 3px solid blueviolet;
+  }
+  .cell {
+    width: 69px;
+    height: 69px;
+  }
 }
